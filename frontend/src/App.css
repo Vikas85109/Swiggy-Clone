@@ -1,0 +1,27 @@
+body{
+    
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+}
+
+.navbar-class{
+    
+    
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    
+    align-items: center;
+    z-index: 999;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom: 0.1px solid lightgray;
+    padding: 10px;
+    height: 80px;
+    
+}

@@ -9,6 +9,11 @@ function Header() {
      <nav>Help</nav>
      <nav>User Name</nav>
      <nav>Cart</nav>
+     <nav>Search</nav>
+     <nav>Offers</nav>
+     <nav>Help</nav>
+     <nav>User Name</nav>
+     <nav>Cart</nav>
      
      </div>
      </>

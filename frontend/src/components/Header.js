@@ -22,7 +22,7 @@ function Header() {
          <li className="">Search</li>
          
          
-         <li>Offers</li>
+         <li> Offers<sup>NEW</sup></li>
          <li>Help</li>
          <li>UserName</li>
          <li>Cart</li>

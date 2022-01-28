@@ -44,7 +44,7 @@ height: 90px;
 
 .location{
     margin-left: 40px;
-    color: FFFFFF;
+    color: #5B5F6D;
 }
 .underline{
     text-decoration: underline;
@@ -59,4 +59,9 @@ height: 90px;
 }
 .underline:hover{
     color: #FFAE13;
+}
+sup{
+    color: #FFAE13;
+    margin: 5px;
+    font-size: 11px;
 }

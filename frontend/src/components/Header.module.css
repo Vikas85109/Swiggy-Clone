@@ -22,7 +22,7 @@ img{
     height: 100%;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 200px;
+    margin-right: 50px;
     color:#3D4152;
     font-weight: bold;
 } 
@@ -55,7 +55,7 @@ height: 90px;
 
 
 .ul li{
-    padding: 30px;
+    padding: 45px;
 }
 .underline:hover{
     color: #FFAE13;

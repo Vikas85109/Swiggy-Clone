@@ -1,0 +1,51 @@
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FBFBFB;
+}
+
+nav{
+    height: 80px;
+    background-color: #FFFFFF;
+    width: 100%;
+    
+}
+
+
+img{
+    /* background-color: red; */
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+.ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+.ul li{
+    
+    display: inline-block;
+    margin: 0 40px;
+    line-height: 17px;
+}
+
+nav .ul li {
+    font-size: 17px;
+    color: #757884;
+    
+}
+
+nav .ul li:hover{
+    color: #FFAD12;
+    
+}
+
+
+
+ 

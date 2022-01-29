@@ -1,0 +1,138 @@
+.product{
+    height:375px;
+    width: 296px;
+    cursor: pointer;
+    padding: 20px 20px 0px;
+    border: 1px solid #fff;
+    position: relative;
+}
+.product:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25)
+}
+.mainContent{
+    height: 296px;
+}
+.header{
+    height: 160px;
+    width: 256px;
+}
+.details{
+    margin: 14px 0px 0px;
+}
+.wrapper{
+    font-size: 12px;
+    margin:18px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #535665;
+    box-sizing: inherit;
+}
+
+.rating{
+    font-size: 12px;
+    padding:0px 5px;
+    background-color: #db7c38;
+    color: white;
+}
+.discount{
+    margin: 14px 0px 0px;
+    padding: 14px 0px 0px;
+    color: #8a584b;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e9e9eb;
+}
+.quickView{
+    color: #686b78;
+    font-size: 13px;
+    border-top: 1px solid #e9e9eb;
+    padding-top: 14px;
+    margin-top: 14px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.quickView:hover span{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,17 +6,17 @@ export default function LoginPage() {
     <div className={styles.content}>
       <div className={styles.loginPage}>
         <div className={styles.mainContent}>
+          <div className={styles.cross}>X</div>
           <div className={styles.heading}>
-            <div className={styles.cross}>X</div>
             <div className={styles.loginComp}>
               <div style={{ fontSize: "30px" }}>Login</div>
-              <div>
-                or
-                <div style={{ color: "black" }}>create an account</div>
+              <div style={{display:"flex"}}>
+                or 
+                <span style={{ color: "#fc8019" , marginLeft:"5px"}}>create an account</span>
               </div>
             </div>
-            <div>
-              <img src="./signinLogo.png" alt=""/>
+            <div style={{marginLeft:"auto", borderRadius:"50%"}}>
+              <img src="./swiggy.png" alt="" />
             </div>
           </div>
           <form className={styles.formEle}>

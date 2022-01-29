@@ -9,7 +9,7 @@ export default function Product({id,name,cuisine,rating,price,image,timing}) {
       <div className={styles.product}>
           <div className={styles.mainContent}>
                 <div className={styles.header}>
-                    <img className='img' src={image}
+                    <img className='img' src={"./images/img1.jpg"}
                             alt='product'/>
                 </div>
                 <div className={styles.title}>

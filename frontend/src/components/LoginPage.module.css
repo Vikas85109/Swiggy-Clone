@@ -35,10 +35,11 @@
     height: 130px;
     /* background-color: red; */
     margin-bottom: 10px;
+    display: flex;
 }
 a{
     text-decoration: none;
-
+    color: #686b78
 }
 .email{
     background-color: transparent;

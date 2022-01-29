@@ -10,7 +10,7 @@ function App() {
       <LoginPage/>
       <Header/>
       <Content></Content> 
-      <Product></Product>
+     
       
 
     </>

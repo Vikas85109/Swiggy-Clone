@@ -4,7 +4,7 @@ import Styles from "./Header.module.css";
 
 import styles from './Product.module.css';
 // import {Link} from 'react-router-dom'
-export default function Product({id,name,cuisine,rating,price,image,timing}) {
+export default function Product({id,name,cuisine,rating,price,images,timing}) {
   return (
       <div className={styles.product}>
           <div className={styles.mainContent}>

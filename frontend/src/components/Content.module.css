@@ -1,5 +1,5 @@
 .contentpart{
-    background-color: red;
+    background-color: beige;
     
     display: grid;
     grid-template-columns: auto auto auto auto;

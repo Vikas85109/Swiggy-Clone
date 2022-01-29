@@ -11,6 +11,7 @@ const data={
         },
         {
             id:2,
+            image:"/images/img2.jpg",
             name:"The Al Lazeez",
             cuisine:"Mughlai North Indian",
             rating:4.0,
@@ -20,6 +21,7 @@ const data={
         {
             id:3,
             name:"For God's Cake",
+            image:"/images/img3.jpg",
             cuisine:"Bakery, Deserts, Beverages, Pizzas, Pastas, Snacks",
             rating:4.0,
             timing:46,
@@ -28,6 +30,7 @@ const data={
         {
             id:4,
             name:"Pizza Hut",
+            image:"/images/img4.jpg",
             cuisine:"Fast Food, Pizzas",
             rating:3.8,
             timing:27,
@@ -36,6 +39,7 @@ const data={
         {
             id:5,
             name:"Concept",
+            image:"/images/img5.jpg",
             cuisine:"North indian, Fast Food, Mughlai",
             rating:4.2,
             timing:35,
@@ -44,6 +48,7 @@ const data={
         {
             id:6,
             name:"Hunger Strike",
+            image:"/images/img6.jpg",
             cuisine:"North Indian, Tandoor",
             rating:4.0,
             timing:43,
@@ -52,6 +57,7 @@ const data={
         {
             id:7,
             name:"Barbeque Nation",
+            image:"/images/img7.jpg",
             cuisine:"North indian, Mughlai, Seafood, Biryani, Deserts, Kebabs",
             rating:3.8,
             timing:29,
@@ -60,6 +66,7 @@ const data={
         {
             id:8,
             name:"Hudson Chopsticks",
+            image:"/images/img8.jpg",
             cuisine:"Chinese, Pan-Asian, Street Food, Snacks, Thai",
             rating:4.3,
             timing:44,
@@ -68,6 +75,7 @@ const data={
         {
             id:9,
             name:"Theobroma",
+            image:"/images/img9.jpg",
             cuisine:"Desserts, Bakery, Beverages",
             rating:4.4,
             timing:25,
@@ -75,6 +83,7 @@ const data={
         },
         {
             id:10,
+            image:"/images/img10.jpg",
             name:"Moolchand Paratha(Moolchand Metro)",
             cuisine:"North Indian, Punjabi, Snacks, Fast Food",
             rating:4.3,
@@ -84,6 +93,7 @@ const data={
         {
             id:11,
             name:"Mad Over Donuts",
+            image:"/images/img11.jpg",
             cuisine:"Desserts,Sweets,Bakery",
             rating:4.2,
             timing:28,
@@ -92,6 +102,7 @@ const data={
         {
             id:12,
             name:"Delhi Darbar Dhaba",
+            image:"/images/img12.jpg",
             cuisine:"North indian, Chinese",
             rating:3.7,
             timing:26,

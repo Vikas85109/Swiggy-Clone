@@ -16,7 +16,7 @@ export default function LoginPage() {
               </div>
             </div>
             <div style={{marginLeft:"auto", borderRadius:"50%"}}>
-              <img src="./swiggy.png" alt="" />
+              <img src="./loginLogo.png" alt="" />
             </div>
           </div>
           <form className={styles.formEle}>

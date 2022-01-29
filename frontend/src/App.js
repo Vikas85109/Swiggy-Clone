@@ -7,8 +7,8 @@ import LoginPage from "./components/LoginPage";
 function App() {
   return (
     <>
-      <LoginPage/>
       <Header/>
+      <LoginPage/>
       <Content></Content> 
      
       

@@ -1,6 +1,6 @@
 .product{
     height:375px;
-    width: 296px;
+    width: 256px;
     cursor: pointer;
     padding: 20px 20px 0px;
     border: 1px solid #fff;
@@ -15,6 +15,10 @@
 .header{
     height: 160px;
     width: 256px;
+}
+.header img{
+    height: 100%;
+    width: 100%;
 }
 .details{
     margin: 14px 0px 0px;

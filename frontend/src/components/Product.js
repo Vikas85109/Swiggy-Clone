@@ -4,25 +4,25 @@ import Styles from "./Header.module.css";
 
 import styles from './Product.module.css';
 // import {Link} from 'react-router-dom'
-export default function Product({id,name,cuisine,rating,price,images,timing}) {
+export default function Product({id,name,cuisine,rating,price,image,timing}) {
   return (
       <div className={styles.product}>
           <div className={styles.mainContent}>
                 <div className={styles.header}>
-                    <img className='img' src={"./images/img1.jpg"}
+                    <img className='img' src={image}
                             alt='product'/>
                 </div>
                 <div className={styles.title}>
                         <div className={styles.details}>
                             <h2 style={{fontSize: "17px"}}>
-                                Behroz Biryani
+                                {name}
                             </h2>
-                            <div style={{fontSize:"13px",margin:"4px 0px 0px"}}> Mughlai</div>
+                            <div style={{fontSize:"13px",margin:"4px 0px 0px"}}>{cuisine}</div>
                         </div>
                         <div className={styles.wrapper}>
                             <div className={styles.rating}>
                                 <i className="fa fa-star-o" style={{background:"#db7c38", color:"white"}}></i>
-                                <span>4.2</span>
+                                <span>{rating}</span>
                             </div>
                             <div>•</div>
                             <div className={styles.timing}>44 MINS</div>

@@ -15,7 +15,9 @@ export default function LoginPage() {
                 <div style={{ color: "black" }}>create an account</div>
               </div>
             </div>
-            <img src="./images/img1.jpg" alt="roll"></img>
+            <div>
+              <img src="./signinLogo.png" alt=""/>
+            </div>
           </div>
           <form className={styles.formEle}>
             <input

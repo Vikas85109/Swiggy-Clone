@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./LoginPage.module.css";
-import logo from '../'
 
 export default function LoginPage() {
   return (
@@ -16,7 +15,7 @@ export default function LoginPage() {
                 <div style={{ color: "black" }}>create an account</div>
               </div>
             </div>
-            <img src={"/images/signin_logo.png"} alt="roll"></img>
+            <img src="./images/img1.jpg" alt="roll"></img>
           </div>
           <form className={styles.formEle}>
             <input

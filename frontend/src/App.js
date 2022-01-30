@@ -9,7 +9,6 @@ import ContextWrapper from './context/ContextWrapper'
 import ProductPage from "./components/ProductPage";
 function App() {
   return (
-<<<<<<< HEAD
     <Router>
         {/* // <ContextWrapper> */}
         <Header/>
@@ -18,14 +17,7 @@ function App() {
           {/* <Content></Content>  */}
           <Route path="/" element={<Content/>}/>
           <Route path="/Product/:id" element={<ProductPage/>}/>
-=======
-    <>
-      <Header/>
-      {/* <LoginPage/> */}
-      <Content></Content> 
-     
-      
->>>>>>> 268c80cc2633e01c69f5cf392776da76c170bee9
+
 
         </Routes>
 

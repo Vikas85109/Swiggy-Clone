@@ -2,7 +2,7 @@ const data={
     restaurants :[
         {
             id:1,
-            image:"./images/img1.jpg",
+            images:"./images/img1.jpg",
             name:"Biryani Blues",
             cuisine:"Biryani, Hyderabadi, Lucknowi, Kebabs,Deserts,Beverages",
             rating:4.2,
@@ -11,7 +11,7 @@ const data={
         },
         {
             id:2,
-            image:"/images/img2.jpg",
+            image:"./images/img2.jpg",
             name:"The Al Lazeez",
             cuisine:"Mughlai North Indian",
             rating:4.0,

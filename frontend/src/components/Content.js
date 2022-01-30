@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+
 import data from '../data'
 
 import stylyecont from "./Content.module.css";
 import Product from "./Product"
+// import Slider from './Slider';
 export default function Content() {
   const [productArr,setProductArr]=useState([]);
   useEffect(()=>{
@@ -11,9 +13,12 @@ export default function Content() {
     console.log(productArr);
   },[]);
   return (
+    <>
+    {/* <Slider/> */}
     <div className={stylyecont.contentpart}>
         {
           productArr.map(product =>
+              
               <Product
                 id={product.id}
                 key={product.id}
@@ -43,6 +48,7 @@ export default function Content() {
       
       
     </div>
-
+    
+    </>
   )
 }

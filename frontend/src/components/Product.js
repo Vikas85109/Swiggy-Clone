@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Styles from "./Header.module.css";
+// import Styles from "./Header.module.css";
 
 import styles from './Product.module.css';
 // import {Link} from 'react-router-dom'

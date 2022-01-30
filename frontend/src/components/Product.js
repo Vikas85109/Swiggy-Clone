@@ -22,7 +22,7 @@ export default function Product({id,name,cuisine,rating,price,images,timing}) {
                         <div className={styles.wrapper}>
                             <div className={styles.rating}>
                                 <i className="fa fa-star-o" style={{background:"#db7c38", color:"white"}}></i>
-                                <span>{rating}</span>
+                                <span style={{marginLeft:"5px"}}>{rating}</span>
                             </div>
                             <div>•</div>
                             <div className={styles.timing}>44 MINS</div>

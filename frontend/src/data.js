@@ -2,7 +2,7 @@ const data={
     restaurants :[
         {
             id:1,
-            images:"./images/img1.jpg",
+            image:"./images/img1.jpg",
             name:"Biryani Blues",
             cuisine:"Biryani, Hyderabadi, Lucknowi, Kebabs,Deserts,Beverages",
             rating:4.2,

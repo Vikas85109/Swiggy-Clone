@@ -4,12 +4,12 @@ import Styles from "./Header.module.css";
 
 import styles from './Product.module.css';
 // import {Link} from 'react-router-dom'
-export default function Product({id,name,cuisine,rating,price,image,timing}) {
+export default function Product({id,name,cuisine,rating,price,images,timing}) {
   return (
       <div className={styles.product}>
           <div className={styles.mainContent}>
                 <div className={styles.header}>
-                    <img className='img' src={image}
+                    <img className='img' src={images}
                             alt='product'/>
                 </div>
                 <div className={styles.title}>

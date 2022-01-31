@@ -14,7 +14,18 @@ img{
     align-items: center;
     margin-left: 70px;
 }
-
+.logo{
+    height: 100%;
+    align-items: center;
+}
+.logo img{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #fff;
+}
 
 .ul{
     list-style: none;

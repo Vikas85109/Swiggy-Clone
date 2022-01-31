@@ -7,7 +7,7 @@ function Header() {
     <>
       <div className={Styles.main_header}>
         <div className={Styles.header_left}>
-          <div className="logo">
+          <div className={Styles.logo}>
             <img src="./swiggy.png" alt="" />
           </div>
           <div className={Styles.location}>

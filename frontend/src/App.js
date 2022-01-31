@@ -13,14 +13,14 @@ function App() {
     <Router>
         {/* // <ContextWrapper> */}
         <Header/>
-        <Cart/>
+        {/* <Cart/> */}
         <Routes>
           
-          {/* <LoginPage/> */}
+          {/* <LoginPage/>  */}
           {/* <Content></Content>  */}
-          {/* <Route path="/" element={<Content/>}/> */}
-          {/* <Route path="/Product/:id" element={<ProductPage/>}/> */}
-
+          <Route path="/" element={<Content/>}/>
+          <Route path="/Product/:id" element={<ProductPage/>}/>
+          <Route path="/cart" element={<Cart/>}/>
 
         </Routes>
 

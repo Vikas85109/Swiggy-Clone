@@ -32,7 +32,7 @@ img{
 .details{
     background-color: yellow;
     height: 100%;
-    
+    box-sizing: border-box;
     width: 450px;
     padding-top:30px;
 }
@@ -50,4 +50,5 @@ img{
     /* justify-content: space-between; */
     font-size: 12px;
     align-items: center;
+    /* box-sizing: border-box; */
 }

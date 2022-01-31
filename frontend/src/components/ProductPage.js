@@ -21,9 +21,9 @@ export default function ProductPage() {
                     <img src={product.image} alt='image'/>
                 </div>
                 <div className={styles.details}>
-                    <div>{product.name}</div>
+                    <div style={{margin:"10px", fontSize:"32px"}}>{product.name}</div>
                     <div>{product.cuisine}</div>
-                    <div>Address</div>
+                    <div style={{margin:"10px", fontSize:"32px"}}>Address</div>
                     <div className={styles.miss}>
                         <div style={{padding:"0px 35px 0px 0px"}}>
                             <div style={{fontSize:"16px", fontStyle:"bold"}}>

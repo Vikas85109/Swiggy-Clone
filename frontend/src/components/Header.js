@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Styles from "./Header.module.css";
 
@@ -8,7 +9,9 @@ function Header() {
       <div className={Styles.main_header}>
         <div className={Styles.header_left}>
           <div className={Styles.logo}>
-            <img src="./swiggy.png" alt="" />
+            <Link to="/">
+              <img src="./swiggy.png" alt="" />
+            </Link>
           </div>
           <div className={Styles.location}>
             <span className={Styles.underline}> Gurugram</span> Haryana,india
@@ -26,7 +29,9 @@ function Header() {
               </li>
               <li>Help</li>
               <li>UserName</li>
-              <li>Cart</li>
+              <Link to="/cart">
+                <li>Cart</li>
+              </Link>
             </ul>
           </nav>
         </div>

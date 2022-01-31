@@ -15,7 +15,7 @@
     box-sizing: border-box;
 }
 .img{
-    background-color: red;
+    /* background-color: red; */
     width: 250px;
     height: 100%;
     margin-right: auto;
@@ -24,24 +24,29 @@
     box-sizing: border-box;
 }
 img{
-    background-color: purple;
+    /* background-color: purple; */
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 .details{
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 100%;
     box-sizing: border-box;
     width: 450px;
     padding-top:30px;
 }
 .offer{
-    background-color: blue;
+    /* background-color: blue; */
+    box-sizing: border-box;
     width: 300px;
     height: 100%;
     margin-left: auto;
     margin-right: 40px;
+    align-items: center;
+    padding:50px 0px;
+    color:#fff;
+    position: relative;
 }
 .miss{
     display: grid;
@@ -52,3 +57,41 @@ img{
     align-items: center;
     /* box-sizing: border-box; */
 }
+.offer_h{
+    position: absolute;
+    top: 40px;
+    left: -6px;
+    position:"relative";
+    font-size:20px;
+    font-weight:bolder;
+    /* color: aqua; */
+    background-color: #171a29;
+}
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+.dishes{
+    padding: 30px 55px 100px;
+    background-color: red;
+    overflow-y: auto;
+    /* height: 13234px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

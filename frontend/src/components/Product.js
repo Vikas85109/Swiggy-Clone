@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-import Styles from "./Header.module.css";
+// import Styles from "./Header.module.css";
 
 import styles from './Product.module.css';
 // import {Link} from 'react-router-dom'

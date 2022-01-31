@@ -1,0 +1,32 @@
+.content{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    
+}
+.header{
+    width: 100%;
+    height: 250px;
+    background-color: #171a29;
+    margin: 0px -20px;
+    padding: 0px 20px;
+    display: flex;
+    box-sizing: border-box;
+}
+.img{
+    background-color: red;
+    width: 250px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: 40px;
+}
+.detail{
+    background-color: yellow;
+}
+.offer{
+    background-color: blue;
+    width: 300px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: 40px;
+}

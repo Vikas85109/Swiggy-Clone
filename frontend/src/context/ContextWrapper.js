@@ -11,7 +11,7 @@ export default function ContextWrapper({children}) {
     const [open, setOpen] = useState(false);
     const [filter, setFilter] = useState({
         search: "",
-        category: "",
+        cuisine: "",
     });
 
     const [cart, setCart] = useState([])

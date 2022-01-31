@@ -39,6 +39,7 @@ height: 90px;
     align-items: center;
     justify-content: space-evenly;
     font-size: 16px;
+    box-sizing: border-box;
     
 }
 
